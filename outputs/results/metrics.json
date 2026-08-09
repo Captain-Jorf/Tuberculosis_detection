@@ -1,0 +1,24 @@
+{
+  "threshold": 0.5,
+  "n_test": 369,
+  "n_tb": 105,
+  "n_normal": 264,
+  "accuracy": 0.962059620596206,
+  "balanced_accuracy": 0.9534090909090909,
+  "precision_tb": 0.9333333333333333,
+  "recall_tb_sensitivity": 0.9333333333333333,
+  "specificity_normal": 0.9734848484848485,
+  "f1_tb": 0.9333333333333333,
+  "roc_auc": 0.9957792207792208,
+  "pr_auc": 0.9904563845887899,
+  "confusion": {
+    "tn": 257,
+    "fp": 7,
+    "fn": 7,
+    "tp": 98
+  },
+  "train_seconds": 2899.0,
+  "n_train": 1722,
+  "n_val": 369,
+  "epochs_ran": 25
+}

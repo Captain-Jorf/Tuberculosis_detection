@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tb-detection"
+version = "0.2.0"
+description = "Tuberculosis screening on chest X-rays with a compact CNN"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "pillow>=10.4",
+    "opencv-python-headless>=4.10",
+]
+
+[project.optional-dependencies]
+train = ["tensorflow-cpu>=2.21,<2.23"]
+dev = ["pytest>=8", "tensorflow-cpu>=2.21,<2.23"]
+
+[project.scripts]
+tb-train = "tb_detection.train:main"
+tb-predict = "tb_detection.predict:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

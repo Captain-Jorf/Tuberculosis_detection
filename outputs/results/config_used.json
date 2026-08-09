@@ -1,0 +1,22 @@
+{
+  "data_dir": "/home/user/Tuberculosis_detection/data/raw",
+  "split_file": "/home/user/Tuberculosis_detection/data/splits.csv",
+  "img_size": [
+    160,
+    160
+  ],
+  "test_size": 0.15,
+  "val_size": 0.15,
+  "seed": 42,
+  "batch_size": 32,
+  "epochs": 25,
+  "learning_rate": 0.0003,
+  "early_stop_patience": 6,
+  "model_dir": "/home/user/Tuberculosis_detection/outputs/models",
+  "results_dir": "/home/user/Tuberculosis_detection/outputs/results",
+  "log_dir": "/home/user/Tuberculosis_detection/outputs/logs",
+  "CLASSES": [
+    "Normal",
+    "Tuberculosis"
+  ]
+}
