@@ -1,0 +1,11 @@
+# pinned from the environment the metrics below were produced with
+tensorflow-cpu==2.21.0
+numpy==2.4.6
+pandas==3.0.5
+scikit-learn==1.9.0
+matplotlib==3.11.1
+seaborn==0.13.2
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+pytest==9.1.1
+tqdm==4.70.0
