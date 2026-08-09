@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# virtualenvs / editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# raw images are large - fetched locally via scripts/download_data.py
+data/raw/
+outputs/logs/
+
+# misc
+.DS_Store
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
